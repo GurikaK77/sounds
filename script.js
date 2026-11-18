@@ -1,12 +1,12 @@
 const sounds = [
   {name:'Wings',file:'wings.mp3'}, {name:'Walking through water',file:'Walking through water.mp3'},
-  {name:'Sword მოძრაობა',file:'sword moqneva.mp3'}, {name:'Hit',file:'hit.mp3'},
+  {name:'Sword Swing',file:'sword swing.mp3'}, {name:'Hit',file:'hit.mp3'},
   {name:'Splash',file:'splash.mp3'}, {name:'Heavy breathing while running',file:'heavy breathing while running.mp3'},
   {name:'Boy cry',file:'boy cry.mp3'}, {name:'Heavy breath',file:'heavy breath.mp3'},
   {name:'Shock (scream)',file:'shock(scream).mp3'}, {name:'Door',file:'door.mp3'},
   {name:'Kids laughing',file:'kids laughing.mp3'}, {name:'Ball hit',file:'ball hit.mp3'},
-  {name:'Cow moo blyat',file:'cow moo blyat.mp3'}, {name:'Footsteps',file:'footsteps.mp3'},
-  {name:'Village + birds',file:'village+birds.mp3'}
+  {name:'Cow moo blyat',file:'cow moo blyat.mp3'}, {name:'Footsteps+Birds',file:'footsteps.mp3'},
+  {name:'Village + birds',file:'village.mp3'}
 ];
 const grid=document.getElementById('soundGrid'), searchInput=document.getElementById('searchInput'), playingCount=document.getElementById('playingCount'), emptyState=document.getElementById('emptyState');
 const activeAudio=new Map();
